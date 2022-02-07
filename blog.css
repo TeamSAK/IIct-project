@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .banner {
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(aboutpic1.jpg);
+    background-size: cover;
+    background-position: relative;
+ }
+ 
+ .navbar {
+    width: 90%;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ 
+ .logo {
+    width: 150px;
+    height: 70px;
+    cursor: pointer;
+ }
+ 
+ .navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+ }
+ 
+ .navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+ }
+ 
+ .navbar ul li ::after {
+  /* We are going to insert some text before .content by using the :before pseudo-element.Load the code below inside one of your stylesheet files..content:after {
+ content: 'Text inserted after via CSS';
+ } */ 
+     content: ''; 
+    height: 3px;
+    width: 0%;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+ }
+ 
+ .navbar ul li :hover::after {
+    width: 100%;
+ }
+ 
+ .content {
+    width: 100%;
+    position: absolute;
+    top: 90%;
+    /* transform: translateY(-50%); */
+    text-align: center;
+    color: solid #fff;
+ }
+ 
+ .content h1 {
+    font-size: 50px;
+    margin-top: -600px;
+    color: #fff;
+ }
+#blog{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding:40px;
+   border-bottom: 1px solid rgba(0, 0, 0, 05.);
+}
+.blog-heading{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.blog-heading span{
+   color: rgb(46, 74, 153);
+}
+.blog-heading h3{
+   font-size:2.4rem;
+   color:black;
+   font-weight:666;
+}
+
+
+ /* blog css starts from here */
+.blog-container{
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   margin: 20px 0px;
+   flex-wrap: wrap;
+}
+ .blog-box{
+    width: 350px;
+    background-color: #fff;
+    border: 1px solid #ececec;
+    margin:20px;
+ }
+ .blog-img{
+    width: 100%;
+    height: auto;
+ }
+ .blog-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+ }
+  .blog-text{
+    padding:30px;
+    display:flex;
+    flex-direction: column;
+ } 
+ .blog-text span
+ {
+   color:black;
+   font-size:0.9rem;
+
+} 
+.title{
+   font-size:1.3rem;
+   font-weight:500;
+   color:#020c0b;
+}
+ .title:hover{
+   color:rgb(95, 214, 131);
+   transition: all ease 0.3s;
+} 
+.blog-text p{
+   color:rgb(6, 15, 15);
+   font-size: 0.9rem;
+   display: -webkit-box;
+   -webkit-line-clamp: 3;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+   margin: 20px 0px;
+}
+.blog-text a{
+   color:rgb(25, 23, 134);
+}
+.blog-text a:hover{
+   color: #a84444;
+   transition: all ease 0.3s;
+}
+/* footer */
+.footer{
+   width:100%;
+   text-align: center;
+   padding:30px 0;
+ }
+ .footer h4{
+   margin-bottom:25px;
+   margin-top:20px;
+   font-weight:600;
+   font-size:30px
+ }
+ .social-media{
+   width: 100%;
+   text-align: center;
+   margin-top: 20px;
+ }
+ 
+ .social-media ul{
+   list-style: none;
+ }
+ 
+ .social-media ul li{
+   display: inline-block;
+   cursor: pointer;
+   margin: 25px 15px;
+ }
+ 
+ .social-media img{
+   width: 30px;
+   height: 30px;
+ }
+
+

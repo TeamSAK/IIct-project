@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>contact</title>
+	<style>
+		
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.banner {
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(aboutpic1.jpg);
+    background-size: cover;
+    background-position: relative;
+ }
+ 
+ .navbar {
+    width: 90%;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ 
+ .logo {
+    width: 150px;
+    height: 70px;
+    cursor: pointer;
+ }
+ 
+ .navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+ }
+ 
+ .navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+ }
+ 
+ .navbar ul li ::after {
+  /* We are going to insert some text before .content by using the :before pseudo-element.Load the code below inside one of your stylesheet files..content:after {
+ content: 'Text inserted after via CSS';
+ } */ 
+     content: ''; 
+    height: 3px;
+    width: 0%;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+ }
+ 
+ .navbar ul li :hover::after {
+    width: 100%;
+ }
+ 
+ .content {
+    width: 100%;
+    position: absolute;
+    top: 90%;
+    /* transform: translateY(-50%); */
+    text-align: center;
+    color: solid #fff;
+ }
+ 
+ .content h1 {
+    font-size: 50px;
+    margin-top: -600px;
+    color: #fff;
+ }
+		.main{
+			border: black solid;
+			padding: 50px;
+		    margin: 10%;
+		     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(uni2.jpg);
+		    background-size: cover;
+		}
+
+		.paragraph{
+			padding: 55px;
+			text-align: center;
+			color: white;
+			font-size: 25px;
+
+		}
+		.form{
+			
+			padding: 10px;
+			margin: 5%;
+			height: 500px;
+			text-align: center;
+			font-size: 20px;
+			box-sizing: cover;
+			color:white;
+		}
+			.form label{
+	       font-family: sans-serif;
+		}
+
+
+		.paragraph h2{
+			text-align: center;
+		}
+
+        .form input   {
+       padding:10px;
+       width: 50%;
+       border-radius:5px;
+       margin:6px;
+      
+   }
+
+
+  .btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 15px 40px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+ .btn:hover{
+    border: 1px solid #009688;
+    background: #009688;
+    transition: 0.5s;
+}
+/* footer */
+.footer{
+  width:100%;
+  text-align: center;
+  padding:30px 0;
+}
+.footer h4{
+  margin-bottom:25px;
+  margin-top:20px;
+  font-weight:600;
+  font-size:30px
+}
+    .social-media{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    }
+    .social-media ul
+    {
+    list-style: none;
+    }
+
+.social-media ul li{
+  display: inline-block;
+  cursor: pointer;
+  margin: 25px 15px;
+}
+.social-media img{
+  width: 30px;
+  height: 30px;
+}
+
+
+	</style>
+</head>
+<body>
+	<div class="banner">
+        <div class="navbar">
+            <img src="logo.png" class="logo">
+            <ul>
+                <li><a href="project.html">HOME </a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="facilities.html">FACILITIES</a></li>
+                <li><a href="sign.html">APPLY NOW</a></li>
+            </ul>
+         </div> 
+    </div>
+	<div class="main">
+		<div class="paragraph">
+			<p>If you have any query or concern, please contact us through this website, phone or via our social media presence.Our team at Eductor will get back to you promptly in sha Allah</p><br>
+			<h2>Contact Us Today!<br><hr></h2>
+		</div>
+
+		<form class="form">
+
+  	<label>Your Name(required!)</label><br>
+  	<input type="text" name="box" placeholder="Enter your name"><br>
+
+  	<label>Email(required!)</label><br>
+  	<input type="text" name="box" placeholder="Enter your Email"><br>
+
+  	  	<label>Subject</label><br>
+  	<input type="text" name="box" placeholder="Subjects"><br>
+
+  	  	<label>Your Message</label><br>
+  	<textarea value="box" style="height:94px; width:658px;"> </textarea><br>
+
+  	<button class="btn">SEND</button>
+  </form>
+	</div>
+	<h4>Abouts Us</h4>
+	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque tenetur sapiente possimus sequi cumque? <br>Suscipit debitis vel dignissimos dolorum exercitationem veritatis rem, obcaecati
+		illo ipsum facere nulla mos vo</p>
+	<!---------------------------------------------------------------- social media saif ali khan --------------------------------------------------------- -->
+	<div class="social-media">
+		<ul>
+			<li><img src="facebook.png"></li>
+			<li><img src="twitter.png"></li>
+			<li><img src="linkedin.png"></li>
+			<li><img src="instagram.png"></li>
+		</ul>
+	</div>
+	<p> © Copyrights 2022 - Educator All Rights Reserved
+		<a href="mailto:hego@example.com">hege@example.com</a><br> Made by University Team</p>
+
+</section>
+</body>
+</html>

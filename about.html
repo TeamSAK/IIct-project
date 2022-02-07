@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About </title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .banner {
+        width: 100%;
+        height: 50vh;
+        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(aboutpic1.jpg);
+        background-size: cover;
+        background-position: relative;
+    }
+    
+    .navbar {
+        width: 90%;
+        margin: auto;
+        padding: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .logo {
+        width: 150px;
+        height: 70px;
+        cursor: pointer;
+    }
+    
+    .navbar ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 20px;
+        position: relative;
+    }
+    
+    .navbar ul li a {
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    
+    .navbar ul li ::after {
+      /* We are going to insert some text before .content by using the :before pseudo-element.Load the code below inside one of your stylesheet files..content:after {
+    content: 'Text inserted after via CSS';
+} */ 
+         content: ''; 
+        height: 3px;
+        width: 0%;
+        background: #009688;
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        transition: 0.5s;
+    }
+    
+    .navbar ul li :hover::after {
+        width: 100%;
+    }
+    
+    .content {
+        width: 100%;
+        position: absolute;
+        top: 90%;
+        /* transform: translateY(-50%); */
+        text-align: center;
+        color: solid #fff;
+    }
+    
+    .content h1 {
+        font-size: 50px;
+        margin-top: -600px;
+        color: #fff;
+    }
+    /* para */
+    
+    .para {
+        padding: 150px;
+        margin: 0%;
+        float: left; 
+     
+    }
+    
+    .para h2 {
+        font-size: 300%;
+        
+    }
+    
+    .about img 
+    {
+        width:50%;
+        height:500px;
+        margin-left:15px;
+        float: right;
+       
+    }
+    /* button */
+    .content-btn
+    {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 2px solid #009688;
+    padding: 12px 34px;
+    font-size: 13px;
+    position: relative;
+    cursor: pointer;
+    }
+
+   .content-btn:hover
+   {
+    border: 1px solid #009688;
+    background: #009688;
+    transition: 0.5s;
+    }
+   
+    /* footer */
+    .footer{
+  width:100%;
+  text-align: center;
+  padding:30px 0;
+}
+.footer h4{
+  margin-bottom:25px;
+  margin-top:20px;
+  font-weight:600;
+  font-size:30px
+}
+    .social-media{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    }
+    .social-media ul
+    {
+    list-style: none;
+    }
+
+.social-media ul li{
+  display: inline-block;
+  cursor: pointer;
+  margin: 25px 15px;
+}
+.social-media img{
+  width: 30px;
+  height: 30px;
+}
+</style>
+
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <img src="logo.png" class="logo">
+            <ul>
+                <li><a href="project.html">HOME </a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="facilities.html">FACILITIES</a></li>
+                <li><a href="sign.html">APPLY NOW</a></li>
+
+            </ul>
+        </div>
+        <div class="content">
+            <h1>About Us</h1>
+        </div>
+    </div>
+    <div class="para">  
+    <p>
+        <div class="about">
+        <img src="ab2.jpg"> <br><br>
+    </div>
+    <h2>We are World's largest <br>University</h2><br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.
+        Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc
+        sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor
+        porta. Cras ac leo purus. Mauris quis diam velit Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptatibus sed ut alias doloribus provident error asperiores. Officia, fuga et eius quos sunt obcaecati quas eum delectus assumenda repellendus nam.
+        Aperiam perferendis, commodi enim explicabo ad similique magni! Corrupti dolorem facere aliquid! Vel suscipit accusamus amet sequi labore fugiat officia, voluptatem aspernatur praesentium expedita perferendis, iure maiores minima delectus provident.
+        Blanditiis architecto est, dicta sapiente deserunt commodi doloribus! Odit soluta eos, commodi consequuntur minus et quidem omnis quaerat doloribus minima officia dolor laborum sequi incidunt veritatis ut cum eaque in!<br><br><br><br>
+        <a href="#" class="content-btn">Visit Us To Know More</a></p><br>
+        <br>
+        <br>
+        <div class="about">
+
+        <img src="aboutimag.jpg"> 
+    </div>
+    <h2>Best Teachers In <br>   Educator University</h2><br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.
+        Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc
+        sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor
+        porta. Cras ac leo purus. Mauris quis diam velit Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptatibus sed ut alias doloribus provident error asperiores. Officia, fuga et eius quos sunt obcaecati quas eum delectus assumenda repellendus nam.
+        Aperiam perferendis, commodi enim explicabo ad similique magni! Corrupti dolorem facere aliquid! Vel suscipit accusamus amet sequi labore fugiat officia, voluptatem aspernatur praesentium expedita perferendis, iure maiores minima delectus provident.
+        Blanditiis architecto est, dicta sapiente deserunt commodi doloribus! Odit soluta eos, commodi consequuntur minus et quidem omnis quaerat doloribus minima officia dolor laborum sequi incidunt veritatis ut cum eaque in!<br><br><br><br>
+        <a href="#" class="content-btn">Visit for more</a></p>
+</div>
+
+  <!----------------------------------------------------------------- footer saif ali khan ---------------------------------------------------------------------- -->
+  <section class="footer">
+    <h4>Abouts Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque tenetur sapiente possimus sequi cumque? <br>Suscipit debitis vel dignissimos dolorum exercitationem veritatis rem, obcaecati
+        illo ipsum facere nulla mos vo</p>
+    <!---------------------------------------------------------------- social media saif ali khan --------------------------------------------------------- -->
+    <br>
+    <hr>
+    <br>
+    <div class="social-media">
+        <ul>
+            <li><img src="facebook.png"></li>
+            <li><img src="twitter.png"></li>
+            <li><img src="linkedin.png"></li>
+            <li><img src="instagram.png"></li>
+        </ul>
+    </div>
+    <p> © Copyrights 2022 - Educator All Rights Reserved
+        <a href="mailto:hego@example.com">hege@example.com</a><br> Made by University Team</p>
+
+</section>
+</body>
+
+</html>

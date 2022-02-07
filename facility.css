@@ -1,0 +1,253 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+.banner {
+   width: 100%;
+   height: 50vh;
+   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(aboutpic1.jpg);
+   background-size: cover;
+   background-position: relative;
+}
+
+.navbar {
+   width: 90%;
+   margin: auto;
+   padding: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.logo {
+   width: 150px;
+   height: 70px;
+   cursor: pointer;
+}
+
+.navbar ul li {
+   list-style: none;
+   display: inline-block;
+   margin: 20px;
+   position: relative;
+}
+
+.navbar ul li a {
+   text-decoration: none;
+   color: #fff;
+   text-transform: uppercase;
+}
+
+.navbar ul li ::after {
+ /* We are going to insert some text before .content by using the :before pseudo-element.Load the code below inside one of your stylesheet files..content:after {
+content: 'Text inserted after via CSS';
+} */ 
+    content: ''; 
+   height: 3px;
+   width: 0%;
+   background: #009688;
+   position: absolute;
+   left: 0;
+   bottom: -5px;
+   transition: 0.5s;
+}
+
+.navbar ul li :hover::after {
+   width: 100%;
+}
+
+.content {
+   width: 100%;
+   position: absolute;
+   top: 90%;
+   /* transform: translateY(-50%); */
+   text-align: center;
+   color: solid #fff;
+}
+
+.content h1 {
+   font-size: 50px;
+   margin-top: -600px;
+   color: #fff;
+}
+
+ /* button */
+ .content-btn
+ {
+ display: inline-block;
+ text-decoration: none;
+ color: rgb(0, 0, 0);
+ border: 2px solid #009688;
+ padding: 12px 34px;
+ font-size: 13px;
+ position: relative;
+ cursor: pointer;
+ }
+
+.content-btn:hover
+{
+ border: 1px solid #009688;
+ background: #009688;
+ transition: 0.5s;
+ }
+/* facilities css starts from here */
+   /* 1st div*/
+.para{
+padding: 170px;
+margin: 0%;
+float: left; 
+
+}
+
+.about img 
+{
+width:50%;
+height:500px;
+margin-left:15px;
+float: right;
+border-radius: 10px;
+}
+
+.para h1{
+   text-align: center;
+   margin-top:5%;
+
+}
+
+
+
+/* div 2 css starts from here */
+   
+.para2{
+padding: 170px;
+margin: 0%;
+float: right; 
+margin-top:-15%;
+
+}
+
+
+.about2 img 
+{
+width:50%;
+height:500px;
+margin-left:-10px;
+float: left;
+border-radius: 10px;
+
+}
+.para2 h1{
+   text-align: center;
+   margin-top:5%;
+
+}
+.para2 p{
+   margin-left: 52%;
+}
+
+/* div 3 starts from here */
+.para3{
+padding: 170px;
+margin: 0%;
+float: left; 
+margin-top:-15%;
+
+}
+
+.about3 img 
+{
+width:50%;
+height:500px;
+margin-left:15px;
+float: right;
+border-radius: 10px;
+
+}
+.para3 h1{
+   text-align: center;
+   margin-top:5%;
+
+}
+
+/* div 4 css starts from here */
+.para4{
+   padding: 170px;
+   margin: 0%;
+   float: right; 
+   margin-top:-15%;
+   
+   }
+   
+   
+   .about4 img 
+   {
+   width:50%;
+   height:500px;
+   margin-left:-10px;
+   float: left;
+   border-radius: 10px;
+   
+   }
+   .para4 h1{
+      text-align: center;
+      margin-top:5%;
+   
+   }
+   .para4 p{
+      margin-left: 52%;
+   }
+ /* div 5 css starts from here */
+ .para5{
+   padding: 170px;
+   margin: 0%;
+   float: left; 
+   margin-top:-15%;
+   
+   }
+   
+   .about5 img 
+   {
+   width:50%;
+   height:500px;
+   margin-left:25px;
+   float: right;
+   border-radius: 10px;
+   
+   }
+   .para5 h1{
+      text-align: center;
+      margin-top:5%;}
+
+
+/* footer */
+.footer{
+   width:100%;
+   text-align: center;
+   padding:30px 0;
+ }
+ .footer h4{
+   margin-bottom:25px;
+   margin-top:20px;
+   font-weight:600;
+   font-size:30px
+ }
+     .social-media{
+     width: 100%;
+     text-align: center;
+     margin-top: 20px;
+     }
+     .social-media ul
+     {
+     list-style: none;
+     }
+ 
+ .social-media ul li{
+   display: inline-block;
+   cursor: pointer;
+   margin: 25px 15px;
+ }
+ .social-media img{
+   width: 30px;
+   height: 30px;
+ }
+
